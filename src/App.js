@@ -24,6 +24,13 @@ class App extends React.Component {
     );
   };
 
+  /*
+  calculateVotesOneLine = ()=> this.setState(['red', 'green', 'blue'].reduce((nextState, color)=> ({
+    ...nextState, [color+'s']: Object.keys(votes).reduce((total, ST)=> total + (
+      this.state[ST] === color ? votes[ST] : 0), 0),
+  }), {}) )
+  */
+  
   calculateVotes = () => {
     let totalReds = 0;
     let totalBlues = 0;

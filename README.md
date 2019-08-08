@@ -3,12 +3,6 @@ using an svg map from [here on wikipedia](https://upload.wikimedia.org/wikipedia
 we can quickly and easily build an SVG react USA state selection map!
 
 
-### map agenda
-
-
-- add `fill` prop to each state
-
-
 ## getting started
 
 
